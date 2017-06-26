@@ -30,26 +30,26 @@
         }
     })
 
-    d3.csv("profile/data/know-how.csv", function(error, data) {
+    d3.csv("data/know-how.csv", function(error, data) {
 //      console.log(data);
       updateSummary(data);
     });
 
-    d3.csv("profile/data/products.csv", function(error, data) {
+    d3.csv("data/products.csv", function(error, data) {
       updateProducts(data);
     });
 
-    d3.csv("profile/data/careers.csv", function(error, data) {
+    d3.csv("data/careers.csv", function(error, data) {
 //      console.log(data);
       updateCareers(data);
     });
 
-    d3.csv("profile/data/projects.csv", function(error, data) {
+    d3.csv("data/projects.csv", function(error, data) {
 //      console.log(data);
       updateProjects(data);
     });
 
-    d3.csv("profile/data/public_relations.csv", function(error, data) {
+    d3.csv("data/public_relations.csv", function(error, data) {
 //      console.log(data);
       updatePublicRelations(data);
     });
