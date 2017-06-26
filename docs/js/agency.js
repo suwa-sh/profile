@@ -30,26 +30,26 @@
         }
     })
 
-    d3.csv("/data/know-how.csv", function(error, data) {
+    d3.csv("data/know-how.csv", function(error, data) {
 //      console.log(data);
       updateSummary(data);
     });
 
-    d3.csv("/data/products.csv", function(error, data) {
+    d3.csv("data/products.csv", function(error, data) {
       updateProducts(data);
     });
 
-    d3.csv("/data/careers.csv", function(error, data) {
+    d3.csv("data/careers.csv", function(error, data) {
 //      console.log(data);
       updateCareers(data);
     });
 
-    d3.csv("/data/projects.csv", function(error, data) {
+    d3.csv("data/projects.csv", function(error, data) {
 //      console.log(data);
       updateProjects(data);
     });
 
-    d3.csv("/data/public_relations.csv", function(error, data) {
+    d3.csv("data/public_relations.csv", function(error, data) {
 //      console.log(data);
       updatePublicRelations(data);
     });
@@ -148,32 +148,6 @@ function updateProjects(projects) {
   // 言語
   renderSummaryPieChart('言語', '#language-chart', langs)
 
-  // TODO 日付ものを yyyy-mm 形式に揃える
-  // TODO 開始日で sort desc
-  // TODO phases の順番を逆転させる
-/*
-  var elem = document.getElementById('project-table');
-  var hotSettings = {
-    data: projects,
-    stretchH: 'all',
-    autoWrapRow: true,
-    width: '100%',
-    height: '400',
-//    maxRows: 10,
-    colHeaders: [
-      '案件名', '所属', '顧客業種', '概要', '開始', '終了', 'ロール', 'フェーズ', 'HW', 'OS', 'MW/PKG', '言語', 'FW/Lib'
-    ],
-//    rowHeaders: true,
-//    columnSorting: true,
-//    sortIndicator: true,
-    autoColumnSize: {
-      samplingRatio: 23
-    },
-//    manualRowResize: true,
-    manualColumnResize: false
-  };
-  var hot = new Handsontable(elem, hotSettings);
-*/
 }
 
 function pushCsv(list, csvString) {
