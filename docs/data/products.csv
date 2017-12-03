@@ -1,4 +1,5 @@
-code,name,url,category
-logfilter,logfilter,"https://suwa-sh.github.io/logfilter","Java - CLI"
-compare-files,compare-files,"https://suwa-sh.github.io/compare-files","Java - CLI"
-asana-register-routines,asana-register-routines,"https://github.com/suwa-sh/asana-register-routines","GAS - SpreadSheet"
+code,name,url,category,image-ext
+logfilter,logfilter,https://scenario-test-framework.github.io/logfilter,Java - CLI,png
+compare-files,compare-files,https://scenario-test-framework.github.io/compare-files,Java - CLI,png
+asana-register-routines,asana-register-routines,https://github.com/suwa-sh/asana-register-routines,GAS - SpreadSheet,png
+in-house-swagger,in-house-swagger,https://in-house-swagger.github.io/in-house-swagger,React + Java,gif
