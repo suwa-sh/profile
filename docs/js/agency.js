@@ -83,7 +83,7 @@ function updateProducts(products) {
               <i class="fa fa-plus fa-3x"></i>\
             </div>\
           </div>\
-          <img src="img/product/' + curProduct.code + '.' + curProduct.image-ext + '" class="img-responsive" alt="">\
+          <img src="img/product/' + curProduct.code + '.' + curProduct.image_ext + '" class="img-responsive" alt="">\
         </a>\
         <div class="portfolio-caption">\
           <h4>' + curProduct.name + '</h4>\

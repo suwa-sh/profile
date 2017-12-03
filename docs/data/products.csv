@@ -1,4 +1,4 @@
-code,name,url,category,image-ext
+code,name,url,category,image_ext
 logfilter,logfilter,https://scenario-test-framework.github.io/logfilter,Java - CLI,png
 compare-files,compare-files,https://scenario-test-framework.github.io/compare-files,Java - CLI,png
 asana-register-routines,asana-register-routines,https://github.com/suwa-sh/asana-register-routines,GAS - SpreadSheet,png
