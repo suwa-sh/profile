@@ -1,4 +1,4 @@
-﻿name,carrer,customer_industry,description,start,end,roles,phases,hw,os,mw_pkg,language,fw_lib
+name,carrer,customer_industry,description,start,end,roles,phases,hw,os,mw_pkg,language,fw_lib
 イタリアンレストラン,エノテカ株式会社,飲食,"・接客
 ・店舗運営サポート
 ・顧客管理
@@ -34,9 +34,9 @@ eLearning管理システム刷新,株式会社アンサー,大学,,2008/1/1,2008
 ・HP作成
 ・ロゴ、名刺作成
 ",2010/9/1,2010/12/31,発起人,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,Mac","Illustrator,Photoshop,InkScape,Gimp",,
-データディクショナリ管理システム保守,株式会社プレーサ,保険.システム子会社,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Tomcat,MySQL",Java,"独自FW(fullstack: struts拡張),Velocity"
-パッケージシステム向け アプリフレームワーク刷新,株式会社プレーサ,保険.システム子会社,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"Tomcat,MySQL",Java,"JSF,seam,Hibernate"
-継続的デリバリ環境構築,株式会社プレーサ,保険.システム子会社,,2010/12/1,2011/3/31,"PL,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Jenkins,Redmine,SVN,Artifactory","Java,WinCmd",Maven
+データディクショナリ管理システム保守,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Tomcat,MySQL",Java,"独自FW(fullstack: struts拡張),Velocity"
+パッケージシステム向け アプリフレームワーク刷新,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"Tomcat,MySQL",Java,"JSF,seam,Hibernate"
+継続的デリバリ環境構築,株式会社プレーサ,保険,,2010/12/1,2011/3/31,"PL,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Jenkins,Redmine,SVN,Artifactory","Java,WinCmd",Maven
 インフラ構築,株式会社プレーサ,社内,"・ネットワーク構築
 ・Winドメイン構築
 ・PJ管理環境構築
@@ -97,11 +97,13 @@ eLearning管理システム刷新,株式会社アンサー,大学,,2008/1/1,2008
 システムテスト自動化システム構築・保守,株式会社プレーサ,通信,,2015/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,"bash,sed/awk,Java",Tukubai
 システムテスト結果可視化システム構築・保守,株式会社プレーサ,通信,,2015/9/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",Apache,"bash,sed/awk,JavaScript,HTML,CSS","Tukubai,jQuery,chart.js"
 システムテストシナリオ自動生成ツール構築・保守,株式会社プレーサ,通信,,2015/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,Java,Velocity
-継続的デリバリーシステム構築・保守,株式会社プレーサ,通信,,2016/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","独自配信システム,SonarQube,Jenkins,Git,GitLab,Redmine","bash,sed/awk",Tukubai
+継続的デリバリーシステム構築・保守,株式会社プレーサ,通信,,2016/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","独自配信システム,SonarQube,Jenkins,GitLab,Redmine","bash,sed/awk","Tukubai,git"
 開発プロセス改善支援,株式会社プレーサ,通信,"・ICONIX + USDM導入
 ・DDD導入
 ・メトリクス解析導入
 ・継続的デリバリー導入
 ",2017/1/1,,コンサルタント,"要件定義,外部設計,内部設計",,,,,
 pepperプロジェクトあんどん ロボアプリ構築・保守,株式会社プレーサ,通信,,2017/4/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",pepper,NAOqi,"Slack,Zapier,Jenkins,GoogleApps,Choregraphe","python,JavaScript,HTML,CSS","jQuery,Angular"
-多段ステージ継続的インテグレーションシステム構築・保守,株式会社プレーサ,通信,,2017/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","Jenkins2,GitLab,SonarQube,","groovy,java,bash,sed/awk","Tukubai,Jenkins.SharedLibrary"
+REST API管理 OSS package開発,個人,IT,,2017/7/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","OAS,swagger editor,swagger ui,swagger codegen,swagger2markup,SpringBoot,docker,TravisCI,SonarCloud,Bintray,asciidoctor,redpen,conventional-changelog","JavaScript,HTML,CSS,Java,bash,sed/awk","Spring,Tukubai,git"
+多段ステージ継続的インテグレーションシステム構築・保守,株式会社プレーサ,通信,,2017/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Ubuntu,Mac","Jenkins2,GitLab,SonarQube,","groovy,Java,bash,sed/awk","Tukubai,Jenkins.SharedLibrary,git"
+シナリオテスト自動化 OSS package開発,個人,IT,,2017/12/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","digdag,docker,TravisCI,Bintray,asciidoctor,redpen,shellcheck,shunit,kcov,conventional-changelog","bash,sed/awk,ruby,python",Tukubai
