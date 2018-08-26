@@ -1,110 +1,59 @@
-name,carrer,customer_industry,description,start,end,roles,phases,hw,os,mw_pkg,language,fw_lib
-イタリアンレストラン,エノテカ株式会社,飲食,"・接客
-・店舗運営サポート
-・顧客管理
-・飲料管理
-・卸業者との折衝",2002/7/1,2005/3/31,"副店長,ホール",,,Windows,Excel,,
-ヨーロピアンレストラン,エノテカ株式会社,飲食,"・接客
-・店舗運営サポート
-・顧客管理
-・HP作成、運用",2005/4/1,2005/8/31,ホール,,,Windows,"Excel,Apache","JavaScript,HTML,CSS",
-デリバティブ管理システム構築,株式会社アンサー,銀行,,2005/12/1,2008/1/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,AIX,"JP1/AJS,Cosminexus,Oracle",Java,"Swing,独自FW(fullstack: seasarの前身),Ant"
-有価証券残高管理システム保守,株式会社アンサー,銀行,,2005/12/1,2008/1/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,AIX,"JP1/AJS,Cosminexus,Oracle",Java,"Swing,独自FW(fullstack: seasarの前身),Ant"
-リリース自動化,株式会社アンサー,銀行,,2007/7/1,2007/9/30,SE,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,AIX,,"bsh,sed/awk,VBA,Java",Ant
-eLearning管理システム刷新,株式会社アンサー,教育,,2008/1/1,2008/3/31,SE,"IT,実装/UT,内部設計",,"CentOS,Mac","Apache,Tomcat,MySQL",Java,"Spring,Hibernate"
-物理インフラ刷新,株式会社アンサー,社内,"・ネットワーク整備
-・サーバ構成整備
-・Winドメイン導入
-・VPN環境構築
-",2008/3/1,2010/8/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",Buffalo製品,"WindowsServer,CentOS","AD,OpenVPN,Zabbix",,
-研修事業刷新,株式会社アンサー,教育,,2008/3/1,2010/8/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Moodle,VMware,Apache","PHP,JavaScript","jQuery,ExtJS"
-キャリアSE研修,株式会社アンサー,教育,"・JSTQB
-・デザイナーブリッジ
-・SpringMVC + Spring + Hibernate
-・ZendFramework + Smarty",2008/4/1,2010/8/31,講師,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Tomcat,MySQL","Java,PHP,COBOL,HTML,JavaScript,CSS","Spring,Hibernate,Maven,Smarty,ZendFW,selenium,PICT,jQuery"
-新人SE研修,株式会社アンサー,教育,"・コンピュータ基礎、ネットワーク、RDB
-・Java、PHP、COBOL、HTML/JS/CSS
-・ビジネススキル",2008/4/1,2010/8/31,講師,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"WindowsServer,CentOS","Apache,Tomcat,Glassfish,JBossAS,MySQL,Oracle,Postgres,VMware","Java,PHP,COBOL,HTML,JavaScript,CSS","Spring,Hibernate,Maven,Smarty,ZendFW"
-書籍管理フロー刷新,株式会社アンサー,社内,"・電子書籍化
-・書籍検索システム
-",2008/7/1,2010/8/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",ScanSnap,CentOS,Apache,PHP,Smarty
-新契約管理システム刷新,株式会社アンサー,保険,,2010/9/1,2010/12/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,RHEL,"JP1/AJS,Tomcat,Oracle",Java,"独自FW(fullstack: struts拡張),RestEasy"
-会社設立,株式会社プレーサ,社内,"・登記、各種事務手続き
-・経営方針、経営計画策定
-・HP作成
-・ロゴ、名刺作成
-",2010/9/1,2010/12/31,発起人,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,Mac","Illustrator,Photoshop,InkScape,Gimp",,
-データディクショナリ管理システム保守,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Tomcat,MySQL",Java,"独自FW(fullstack: struts拡張),Velocity"
-パッケージシステム向け アプリフレームワーク刷新,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"Tomcat,MySQL",Java,"JSF,seam,Hibernate"
-継続的デリバリ環境構築,株式会社プレーサ,保険,,2010/12/1,2011/3/31,"PL,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Jenkins,Redmine,SVN,Artifactory","Java,WinCmd",Maven
-インフラ構築,株式会社プレーサ,社内,"・ネットワーク構築
-・Winドメイン構築
-・PJ管理環境構築
-・VPN環境構築
-・電子書籍環境構築
-・情報共有環境構築",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画","Buffalo製品,ScanSnap","WindowsServer,CentOS","AD,Apache,Redmine,SVN,OpenVPN,TeamViewer,Moodle,WordPress,QBPM,Evernote,Prezi",,
-人事業務,株式会社プレーサ,社内,"・給与管理
-・勤怠管理
-",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,CentOS","弥生会計,弥生給与,MosP",,
-会計業務,株式会社プレーサ,社内,"・月次作業
-・決算作業
-",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"弥生会計,弥生給与",,
-営業管理,株式会社プレーサ,社内,"・受注管理
-・発注管理
-",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,CentOS","弥生会計,弥生給与,SugarCRM",,
-ライフシミュレーションアプリ構築,株式会社プレーサ,保険,,2011/4/1,2011/9/30,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",タブレットPC,Windows,,C#,"WPF,ComponentOne,EntLib,AutoMapper,NuGet"
-開発プロセス構築,株式会社プレーサ,保険,・ICONIX + USDM + XDDP,2011/4/1,2011/9/30,"コンサルタント,PL","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"Redmine,SVN,astah,Excel",,
-オフィス構築,株式会社プレーサ,社内,"・オフィス設計
-・ネットワーク構築
-・サーバー整備
-",2011/4/1,2014/9/27,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",Buffalo製品,"WindowsServer,CentOS","AD,Apache,Redmine,SVN,TeamViewer",,
-サーバ構成の可視化,株式会社プレーサ,社内,"・ネットワーク構成の可視化
-・ハードウェア構成の可視化
-・ミドルウェア構成の可視化
-",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Redmine","JavaScript,HTML,CSS","jQuery,chart.js"
-営業状況の可視化,株式会社プレーサ,社内,"・リード状況の可視化
-・受注状況の可視化
-・発注状況の可視化",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Redmine,Apache","JavaScript,HTML,CSS","jQuery,chart.js"
-経営状況の可視化,株式会社プレーサ,社内,"・仕訳、売掛け金、買い掛け金の可視化
-・CFシミュレーション
-",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"弥生会計,Excel",VBA,
-システム障害解消,株式会社プレーサ,通信,"・ヒアリング、調査、分析、立案、プロト作成、導入支援まで
-",2012/1/1,2013/9/30,コンサルタント,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Apache,Tomcat,IIS,BusinessWare,SQLServer,jmeter,GoogleApps","Java,JavaScript,WinCmd,GAS","seasar2,Spring"
-部内共通利用予定製品のトライアル,株式会社プレーサ,通信,・調査、プロト作成、導入・運用方針立案、導入支援まで,2012/1/1,2013/9/30,コンサルタント,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"ChangeMiner,Liquibase,独自JobScheduler","Java,GAS,WinCmd",
-債権管理システム保守,株式会社プレーサ,通信,,2013/4/1,2014/9/30,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Oracle,独自JobScheduler,GoogleApps,SQLServer","WinCmd,VBScript,GAS",
-開発プロセス進行状況可視化,株式会社プレーサ,通信,,2013/9/1,2013/9/30,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Redmine","JavaScript,HTML,CSS","jQuery,chart.js"
-ノンプログラミング開発基盤 方式検討支援,株式会社プレーサ,通信,"・方式検討のアドバイザ
-",2013/10/1,2013/12/31,コンサルタント,"外部設計,要件定義",,RHEL,"Node.js,MongoDB","JavaScript,Java","backborn.js,Tascany,Spring,MyBatis"
-債権管理システム切り替え検証,株式会社プレーサ,通信,,2013/10/1,2013/12/31,PL,"ST,実装/UT,要件定義,企画・計画",,"WindowsServer,RHEL","Oracle,MySQL,独自JobScheduler",,
-データ移行分散処理システム構築,株式会社プレーサ,通信,,2014/1/1,2014/3/21,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,"RHEL,CentOS,Mac","Oracle,MySQL,Sqoop,Hadoop,Excel","Java,bash,VBA",
-データ移行分散処理システム構築,株式会社プレーサ,通信,,2014/1/1,2014/3/21,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,"RHEL,CentOS,Mac","Oracle,MySQL,Sqoop,Hadoop,Excel","Java,bash,VBA",
-ストリームデータ分散処理システムPOC支援,株式会社プレーサ,通信,"・POCのアドバイザ
-",2014/3/1,2014/4/30,コンサルタント,"内部設計,外部設計",,RHEL,"Hadoop,Storm,Infinispan",Java,
-債権管理システム運用作業ジョブ化,株式会社プレーサ,通信,,2014/4/1,2014/9/30,PL,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"GoogleApps,独自JobScheduler,Oracle,SQLServer","WinCmd,VBScript,GAS",
-リリース作業自動化,株式会社プレーサ,通信,,2014/6/1,2014/7/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,SVN,WinCmd,
-債権管理ストリームデータ分散処理システム導入検討,株式会社プレーサ,通信,"・ヒアリング、Fit&Gap
-",2014/10/1,2014/12/31,コンサルタント,要件定義,,RHEL,"JBossEAP,JDG,独自StorageKVS,独自ESB,独自JobScheduler","Java,bash",独自分散処理Framework
-パブリッククラウド（AWS）構築,株式会社プレーサ,社内,"・社内サーバをVPCに移行
-・VisualOpsで設計、構築
-・JenkinsからCLIでEC2インスタンスをコントロール
-",2014/10/1,2015/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"AWS,VisualOps,Jenkins","bash,sed/awk,python",Tukubai
-プライベートクラウド検証,株式会社プレーサ,社内,,2014/10/1,2015/9/30,PM,"ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"OpenStack,CloudStack,Crowbar,chef","bash,sed/awk",Tukubai
-債権管理ストリームデータ分散処理システム構築,株式会社プレーサ,通信,,2014/12/1,2016/6/30,"SE,コンサルタント","ST,外部設計",,RHEL,"JBossEAP,JDG,独自StorageKVS,独自ESB,独自JobScheduler","Java,bash",独自分散処理Framework
-債権管理ストリームデータ分散処理システム補助ツール作成,株式会社プレーサ,通信,"・WebService起動画面
-・分散サーバのログ収集ツール
-・業務日付操作ツール
-など",2015/4/1,2016/6/30,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,Windows,Ubuntu,Mac",EmbeddedTomcat,"Java,bash,sed/awk,JavaScript,HTML,CSS","Tukubai,jQuery"
-システムテスト自動化システム構築・保守,株式会社プレーサ,通信,,2015/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,"bash,sed/awk,Java",Tukubai
-システムテスト結果可視化システム構築・保守,株式会社プレーサ,通信,,2015/9/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",Apache,"bash,sed/awk,JavaScript,HTML,CSS","Tukubai,jQuery,chart.js"
-システムテストシナリオ自動生成ツール構築・保守,株式会社プレーサ,通信,,2015/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,Java,Velocity
-継続的デリバリーシステム構築・保守,株式会社プレーサ,通信,,2016/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","独自配信システム,SonarQube,Jenkins,GitLab,Redmine","bash,sed/awk","Tukubai,git"
-開発プロセス改善支援,株式会社プレーサ,通信,"・ICONIX + USDM導入
-・DDD導入
-・メトリクス解析導入
-・継続的デリバリー導入
-",2017/1/1,,コンサルタント,"要件定義,外部設計,内部設計",,,,,
-pepperプロジェクトあんどん ロボアプリ構築・保守,株式会社プレーサ,通信,,2017/4/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",pepper,NAOqi,"Slack,Zapier,Jenkins,GoogleApps,Choregraphe","python,JavaScript,HTML,CSS","jQuery,Angular"
-REST API管理 OSS package開発,個人,IT,,2017/7/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","OAS,swagger editor,swagger ui,swagger codegen,swagger2markup,SpringBoot,docker,TravisCI,SonarCloud,Bintray,asciidoctor,redpen,conventional-changelog","JavaScript,HTML,CSS,Java,bash,sed/awk","Spring,Tukubai,git"
-多段ステージ継続的インテグレーションシステム構築・保守,株式会社プレーサ,通信,・MultiStageCI,2017/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Ubuntu,Mac","Jenkins2,GitLab,SonarQube,","groovy,Java,bash,sed/awk","Tukubai,Jenkins.SharedLibrary,git"
-シナリオテスト自動化 OSS package開発,個人,IT,,2017/12/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","digdag,docker,TravisCI,Bintray,asciidoctor,redpen,shellcheck,shunit,kcov,conventional-changelog","bash,sed/awk,ruby,python",Tukubai
-割賦債権管理システム技術顧問,株式会社プレーサ,通信,"・CleanArchitecture, Swagger, CI/CD導入",2018/03/01,,コンサルタント,外部設計,,"CentOS,Mac","Wildfly,独自StorageKVS,独自ESB,独自JobScheduler,in-house-swagger","Java,bash","Wildfly Swarm,Orika"
+"name","carrer","customer_industry","description","start","end","roles","phases","hw","os","mw_pkg","language","fw_lib",
+イタリアンレストラン,エノテカ株式会社,飲食,"接客、店舗運営サポート、顧客管理、飲料管理、卸業者との折衝",2002/7/1,2005/3/31,"副店長,ホール",,,Windows,Excel,,,
+ヨーロピアンレストラン,エノテカ株式会社,飲食,"接客、店舗運営サポート、顧客管理、HP作成、運用",2005/4/1,2005/8/31,ホール,,,Windows,"Excel,Apache","JavaScript,HTML,CSS",,
+デリバティブ管理システム構築,株式会社アンサー,銀行,,2005/12/1,2008/1/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,AIX,"JP1/AJS,Cosminexus,Oracle",Java,"Swing,独自FW(fullstack: seasarの前身),Ant",
+有価証券残高管理システム保守,株式会社アンサー,銀行,,2005/12/1,2008/1/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,AIX,"JP1/AJS,Cosminexus,Oracle",Java,"Swing,独自FW(fullstack: seasarの前身),Ant",
+リリース自動化,株式会社アンサー,銀行,,2007/7/1,2007/9/30,SE,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,AIX,,"bsh,sed/awk,VBA,Java",Ant,
+eLearning管理システム刷新,株式会社アンサー,教育,,2008/1/1,2008/3/31,SE,"IT,実装/UT,内部設計",,"CentOS,Mac","Apache,Tomcat,MySQL",Java,"Spring,Hibernate",
+物理インフラ刷新,株式会社アンサー,IT,"ネットワーク整備、サーバ構成整備、Winドメイン導入、VPN環境構築",2008/3/1,2010/8/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",Buffalo製品,"WindowsServer,CentOS","AD,OpenVPN,Zabbix",,,
+研修事業刷新,株式会社アンサー,教育,,2008/3/1,2010/8/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Moodle,VMware,Apache","PHP,JavaScript","jQuery,ExtJS",
+キャリアSE研修,株式会社アンサー,教育,"JSTQB、デザイナーブリッジ、SpringMVC + Spring + Hibernate、ZendFramework + Smarty",2008/4/1,2010/8/31,講師,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Tomcat,MySQL","Java,PHP,COBOL,HTML,JavaScript,CSS","Spring,Hibernate,Maven,Smarty,ZendFW,selenium,PICT,jQuery",
+新人SE研修,株式会社アンサー,教育,"コンピュータ基礎、ネットワーク、RDB、Java、PHP、COBOL、HTML/JS/CSS、ビジネススキル",2008/4/1,2010/8/31,講師,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"WindowsServer,CentOS","Apache,Tomcat,Glassfish,JBossAS,MySQL,Oracle,Postgres,VMware","Java,PHP,COBOL,HTML,JavaScript,CSS","Spring,Hibernate,Maven,Smarty,ZendFW",
+書籍管理フロー刷新,株式会社アンサー,IT,"電子書籍化、書籍検索システム",2008/7/1,2010/8/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",ScanSnap,CentOS,Apache,PHP,Smarty,
+新契約管理システム刷新,株式会社アンサー,保険,,2010/9/1,2010/12/31,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,RHEL,"JP1/AJS,Tomcat,Oracle",Java,"独自FW(fullstack: struts拡張),RestEasy",
+会社設立,株式会社プレーサ,IT,"登記、各種事務手続き、経営方針、経営計画策定、HP作成、ロゴ、名刺作成",2010/9/1,2010/12/31,発起人,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,Mac","Illustrator,Photoshop,InkScape,Gimp",,,
+データディクショナリ管理システム保守,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Tomcat,MySQL",Java,"独自FW(fullstack: struts拡張),Velocity",
+パッケージシステム向け アプリフレームワーク刷新,株式会社プレーサ,保険,,2010/12/1,2011/3/31,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"Tomcat,MySQL",Java,"JSF,seam,Hibernate",
+継続的デリバリ環境構築,株式会社プレーサ,保険,,2010/12/1,2011/3/31,"PL,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Jenkins,Redmine,SVN,Artifactory","Java,WinCmd",Maven,
+インフラ構築,株式会社プレーサ,IT,"ネットワーク構築、Winドメイン構築、PJ管理環境構築、VPN環境構築、電子書籍環境構築、情報共有環境構築",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画","Buffalo製品,ScanSnap","WindowsServer,CentOS","AD,Apache,Redmine,SVN,OpenVPN,TeamViewer,Moodle,WordPress,QBPM,Evernote,Prezi",,,
+人事業務,株式会社プレーサ,IT,"給与管理、勤怠管理",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,CentOS","弥生会計,弥生給与,MosP",,,
+会計業務,株式会社プレーサ,IT,"月次作業、決算作業",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"弥生会計,弥生給与",,,
+営業管理,株式会社プレーサ,IT,"受注管理、発注管理",2010/12/1,2014/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"Windows,CentOS","弥生会計,弥生給与,SugarCRM",,,
+ライフシミュレーションアプリ構築,株式会社プレーサ,保険,,2011/4/1,2011/9/30,PL,"ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",タブレットPC,Windows,,C#,"WPF,ComponentOne,EntLib,AutoMapper,NuGet",
+開発プロセス構築,株式会社プレーサ,保険,ICONIX + USDM + XDDP,2011/4/1,2011/9/30,"コンサルタント,PL","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"Redmine,SVN,astah,Excel",,,
+オフィス構築,株式会社プレーサ,IT,"オフィス設計、ネットワーク構築、サーバー整備",2011/4/1,2014/9/27,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",Buffalo製品,"WindowsServer,CentOS","AD,Apache,Redmine,SVN,TeamViewer",,,
+サーバ構成の可視化,株式会社プレーサ,IT,"ネットワーク構成の可視化、ハードウェア構成の可視化、ミドルウェア構成の可視化",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Redmine","JavaScript,HTML,CSS","jQuery,chart.js",
+営業状況の可視化,株式会社プレーサ,IT,"リード状況の可視化、受注状況の可視化、発注状況の可視化",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Redmine,Apache","JavaScript,HTML,CSS","jQuery,chart.js",
+経営状況の可視化,株式会社プレーサ,IT,"仕訳、売掛け金、買い掛け金の可視化、CFシミュレーション",2011/10/1,2011/12/31,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,Windows,"弥生会計,Excel",VBA,,
+システム障害解消,株式会社プレーサ,通信,"ヒアリング、調査、分析、立案、プロト作成、導入支援まで",2012/1/1,2013/9/30,コンサルタント,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"Apache,Tomcat,IIS,BusinessWare,SQLServer,jmeter,GoogleApps","Java,JavaScript,WinCmd,GAS","seasar2,Spring",
+部内共通利用予定製品のトライアル,株式会社プレーサ,通信,調査、プロト作成、導入・運用方針立案、導入支援まで,2012/1/1,2013/9/30,コンサルタント,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,"ChangeMiner,Liquibase,独自JobScheduler","Java,GAS,WinCmd",,
+債権管理システム保守,株式会社プレーサ,通信,,2013/4/1,2014/9/30,SE,"リリース,ST,IT,実装/UT,内部設計,外部設計",,WindowsServer,"Oracle,独自JobScheduler,GoogleApps,SQLServer","WinCmd,VBScript,GAS",,
+開発プロセス進行状況可視化,株式会社プレーサ,通信,,2013/9/1,2013/9/30,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"Apache,Redmine","JavaScript,HTML,CSS","jQuery,chart.js",
+ノンプログラミング開発基盤 方式検討支援,株式会社プレーサ,通信,"方式検討のアドバイザ",2013/10/1,2013/12/31,コンサルタント,"外部設計,要件定義",,RHEL,"Node.js,MongoDB","JavaScript,Java","backborn.js,Tascany,Spring,MyBatis",
+債権管理システム切り替え検証,株式会社プレーサ,通信,,2013/10/1,2013/12/31,PL,"ST,実装/UT,要件定義,企画・計画",,"WindowsServer,RHEL","Oracle,MySQL,独自JobScheduler",,,
+データ移行分散処理システム構築,株式会社プレーサ,通信,,2014/1/1,2014/3/21,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,"RHEL,CentOS,Mac","Oracle,MySQL,Sqoop,Hadoop,Excel","Java,bash,VBA",,
+データ移行分散処理システム構築,株式会社プレーサ,通信,,2014/1/1,2014/3/21,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,"RHEL,CentOS,Mac","Oracle,MySQL,Sqoop,Hadoop,Excel","Java,bash,VBA",,
+ストリームデータ分散処理システムPOC支援,株式会社プレーサ,通信,"POCのアドバイザ",2014/3/1,2014/4/30,コンサルタント,"内部設計,外部設計",,RHEL,"Hadoop,Storm,Infinispan",Java,,
+債権管理システム運用作業ジョブ化,株式会社プレーサ,通信,,2014/4/1,2014/9/30,PL,"リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義",,WindowsServer,"GoogleApps,独自JobScheduler,Oracle,SQLServer","WinCmd,VBScript,GAS",,
+リリース作業自動化,株式会社プレーサ,通信,,2014/6/1,2014/7/31,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,WindowsServer,SVN,WinCmd,,
+債権管理ストリームデータ分散処理システム導入検討,株式会社プレーサ,通信,"ヒアリング、Fit&Gap",2014/10/1,2014/12/31,コンサルタント,要件定義,,RHEL,"JBossEAP,JDG,独自StorageKVS,独自ESB,独自JobScheduler","Java,bash",独自分散処理Framework,
+パブリッククラウド（AWS）構築,株式会社プレーサ,IT,"社内サーバをVPCに移行、VisualOpsで設計、構築、JenkinsからCLIでEC2インスタンスをコントロール",2014/10/1,2015/9/30,PM,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"AWS,VisualOps,Jenkins","bash,sed/awk,python",Tukubai,
+プライベートクラウド検証,株式会社プレーサ,IT,,2014/10/1,2015/9/30,PM,"ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,CentOS,"OpenStack,CloudStack,Crowbar,chef","bash,sed/awk",Tukubai,
+債権管理ストリームデータ分散処理システム構築,株式会社プレーサ,通信,,2014/12/1,2016/6/30,"SE,コンサルタント","ST,外部設計",,RHEL,"JBossEAP,JDG,独自StorageKVS,独自ESB,独自JobScheduler","Java,bash",独自分散処理Framework,
+債権管理ストリームデータ分散処理システム補助ツール作成,株式会社プレーサ,通信,"WebService起動画面、分散サーバのログ収集ツール、業務日付操作ツールなど",2015/4/1,2016/6/30,PL,"運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,Windows,Ubuntu,Mac",EmbeddedTomcat,"Java,bash,sed/awk,JavaScript,HTML,CSS","Tukubai,jQuery",
+システムテスト自動化システム構築・保守,株式会社プレーサ,通信,,2015/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,"bash,sed/awk,Java",Tukubai,
+システムテスト結果可視化システム構築・保守,株式会社プレーサ,通信,,2015/9/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",Apache,"bash,sed/awk,JavaScript,HTML,CSS","Tukubai,jQuery,chart.js",
+システムテストシナリオ自動生成ツール構築・保守,株式会社プレーサ,通信,,2015/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac",,Java,Velocity,
+継続的デリバリーシステム構築・保守,株式会社プレーサ,通信,,2016/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","独自配信システム,SonarQube,Jenkins,GitLab,Redmine","bash,sed/awk","Tukubai,git",
+開発プロセス改善支援,株式会社プレーサ,通信,"ICONIX + USDM導入、DDD導入、メトリクス解析導入、継続的デリバリー導入",2017/1/1,,コンサルタント,"要件定義,外部設計,内部設計",,,,,,
+pepperプロジェクトあんどん ロボアプリ構築・保守,株式会社プレーサ,通信,,2017/4/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",pepper,NAOqi,"Slack,Zapier,Jenkins,GoogleApps,Choregraphe","python,JavaScript,HTML,CSS","jQuery,Angular",
+asana-register-routine,個人,IT,"Asanaに定期タスクを登録するGoogleスプレッドシート",2017/5/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,,"GoogleApps,Asana","GAS",,
+REST API管理 OSS package開発,個人,IT,,2017/7/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","OAS,swagger editor,swagger ui,swagger codegen,swagger2markup,SpringBoot,docker,TravisCI,SonarCloud,Bintray,asciidoctor,redpen,conventional-changelog","JavaScript,HTML,CSS,Java,bash,sed/awk","Spring,Tukubai,git",
+多段ステージ継続的インテグレーションシステム構築・保守,株式会社プレーサ,通信,MultiStageCI,2017/10/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Ubuntu,Mac","Jenkins2,GitLab,SonarQube,","groovy,Java,bash,sed/awk","Tukubai,Jenkins.SharedLibrary,git",
+シナリオテスト自動化 OSS package開発,個人,IT,,2017/12/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"CentOS,Ubuntu,Mac","digdag,docker,TravisCI,Bintray,asciidoctor,redpen,shellcheck,shunit,kcov,conventional-changelog","bash,sed/awk,ruby,python",Tukubai,
+割賦債権管理システム技術顧問,株式会社プレーサ,通信,"CleanArchitecture、Swagger、CI/CD導入",2018/03/01,,コンサルタント,外部設計,,"CentOS,Mac","Wildfly,独自StorageKVS,独自ESB,独自JobScheduler,in-house-swagger","Java,bash","Wildfly Swarm,Orika",
+Kurbernetes環境構築の検証,株式会社プレーサ,通信,"閉じたネットワークでk8s環境を楽に構築・運用する方法を検討",2018/5/1,2018/7/31,"SE,コンサルタント","実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Mac","minikube,kubeadm,ICP,Rancher,Docker",,,
+ekkyo-hiroba-bot,越境者の集い,IT,"コミュニティでのSlack運用を自動化するslack bot",2018/7/1,,"PM,SE","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,,"Glitch,Slack,Node.js","JavaScript","BotKit",
+ふりかえりシステムの構築・保守,株式会社プレーサ,通信,"cloud native journey のパイロットプロジェクト、microservice、CleanArchitecture",2018/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Mac","Docker,docker-compose,Node.js,Redis,Node-RED,KeyCloak,SpringBoot,in-house-swagger","JavaScript,HTML,CSS,Java","React,react-husen,sockette,bootstrap,nodered-nodegen,nodered-flowgen,Spring",
+サーバの状況確認ツールの構築,株式会社プレーサ,通信,"baremetal/VM の設定状況を収集",2018/7/1,2018/7/31,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義,企画・計画",,"RHEL,CentOS,Mac",,"bash,sed/awk",Tukubai,
+仮説検証アプローチの導入,株式会社プレーサ,通信,"仮説キャンバス、MVPキャンバスを利用したカイゼンプロセスの導入",2018/8/1,,"コンサルタント","内部設計,外部設計,要件定義,企画・計画",,,"仮説キャンバス,MVPキャンバス",,,

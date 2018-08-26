@@ -61,10 +61,11 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden"><a href="#page-top"></a></li>
+          <li><a class="page-scroll" href="#summary">Summary</a></li>
           <li><a class="page-scroll" href="#know-how">Know-How</a></li>
           <li><a class="page-scroll" href="#products">Products</a></li>
-          <li><a class="page-scroll" href="#careers">Careers</a></li>
           <li><a class="page-scroll" href="#projects">Projects</a></li>
+          <li><a class="page-scroll" href="#careers">Careers</a></li>
           <li><a class="page-scroll" href="#pr">PR</a></li>
           <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>
@@ -92,10 +93,31 @@
 
 <!--
 ####################################################################################################
+  Summary
+####################################################################################################
+-->
+<section id="summary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Summary</h2>
+        <h3 class="section-subheading text-muted">最近の活動状況</h3>
+      </div>
+    </div>
+    <div class="row text-center" id="summary-container">
+      <p>DevOps、アプリケーションアーキテクチャ の コンサルタント兼エンジニア として活動していることが多いです。</p>
+      <img src="https://raw.githubusercontent.com/suwa-sh/profile/master/docs/img/hen-ai_map.png"/>
+    </div>
+  </div>
+</section>
+
+
+<!--
+####################################################################################################
   Know-How
 ####################################################################################################
 -->
-  <section id="know-how">
+  <section id="know-how" class="bg-light-gray">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -114,7 +136,7 @@
   Products
 ####################################################################################################
 -->
-  <section id="products" class="bg-light-gray">
+  <section id="products">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -126,6 +148,34 @@
       </div>
     </div>
   </section>
+
+
+<!--
+####################################################################################################
+  Projects
+####################################################################################################
+-->
+<section id="projects" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Projects</h2>
+        <h3 class="section-subheading text-muted">携わったプロジェクト</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"><canvas id="industory-chart"></canvas></div>
+      <div class="col-md-3"><canvas id="role-chart"></canvas></div>
+      <div class="col-md-3"><canvas id="mw-chart"></canvas></div>
+      <div class="col-md-3"><canvas id="language-chart"></canvas></div>
+    </div>
+    <div class="row" style="margin: 4em 0 0 0;">
+      <div class="text-center">
+        <a href="https://github.com/suwa-sh/profile/blob/master/docs/data/projects.csv" class="page-scroll btn btn-xl">List Projects</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!--
@@ -160,38 +210,10 @@
 
 <!--
 ####################################################################################################
-  Projects
-####################################################################################################
--->
-  <section id="projects" class="bg-light-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Projects</h2>
-          <h3 class="section-subheading text-muted">携わったプロジェクト</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3"><canvas id="industory-chart"></canvas></div>
-        <div class="col-md-3"><canvas id="role-chart"></canvas></div>
-        <div class="col-md-3"><canvas id="mw-chart"></canvas></div>
-        <div class="col-md-3"><canvas id="language-chart"></canvas></div>
-      </div>
-      <div class="row" style="margin: 4em 0 0 0;">
-        <div class="text-center">
-          <a href="https://github.com/suwa-sh/profile/blob/master/docs/data/projects.csv" class="page-scroll btn btn-xl">Tell Me More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-<!--
-####################################################################################################
   PR
 ####################################################################################################
 -->
-  <section id="pr">
+  <section id="pr" class="bg-light-gray">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
