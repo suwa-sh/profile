@@ -109,7 +109,7 @@ function updateCareers(careers) {
     $('#careers-last').before('\
       <li ' + classStr + '>\
         <div class="timeline-image">\
-          <img class="img-circle img-responsive" src="img/logos/logo_' + curCareer.code + '.jpg" alt="" style="height: 100%">\
+          <img class="img-circle img-responsive" src="img/logos/logo_' + curCareer.code + '" alt="" style="height: 100%">\
         </div>\
         <div class="timeline-panel">\
           <div class="timeline-heading">\
