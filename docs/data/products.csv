@@ -5,3 +5,5 @@ compare-files,compare-files,https://scenario-test-framework.github.io/compare-fi
 logfilter,logfilter,https://scenario-test-framework.github.io/logfilter,Java - CLI,png
 asana-register-routines,asana-register-routines,https://github.com/suwa-sh/asana-register-routines,GAS - SpreadSheet,png
 progress-chart,progress-chart,https://github.com/suwa-sh/progress-chart,GAS - SpreadSheet,png
+slack_history,slack_history,https://github.com/suwa-sh/slack_history,GAS - SpreadSheet,png
+gcal-history,gcal-history,https://github.com/suwa-sh/gcal-history,GAS - SpreadSheet,png

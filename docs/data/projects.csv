@@ -73,4 +73,8 @@ tipsのslack投稿ツール,株式会社プレーサ,通信,"",2019/4/1,2019/4/3
 イベント決済サービス ECS/Fargate化,個人,FinTech,"",2019/5/1,,"SE,コンサルタント","IT,実装/UT,内部設計,外部設計,要件定義",,"Ubuntu","AWS,ECS,Fargate,Docker","ruby,bash","",
 サービスブループリントworkshop,個人,パッケージベンダー,"",2019/6/1,2019/6/30,"講師","運用",,"","GoogleApps","","",
 パターン・ランゲージworkshop,個人,パッケージベンダー,"",2019/6/1,2019/6/30,"講師","運用",,"","GoogleApps","","",
-AI/IoT住宅,個人,建築,"",2019/7/1,,"PMO","企画・計画",,"","backlog,slack,GoogleApps","","",
+AI/IoT住宅,個人,建築,"",2019/7/1,,"PMO","企画・計画",,"","backlog,slack,GoogleApps","python","scikit-learn",
+みまもりケータイ,個人,EC,"",2019/8/1,"","PMO","実装/UT,内部設計,外部設計,要件定義","","","AWS,ECS,Fargate,Docker,GCP,Firebase,SkyWay,IIJ,Stripe","ruby,","",
+ECSでGitOpsライク継続的デリバリー,個人,FinTech,"",2019/7/1,,"SE,コンサルタント","運用,リリース,ST,IT,実装/UT,内部設計,外部設計,要件定義","","ubuntu","GitHub,AWS,ECS,Fargate,CodePipeline,CodeBuild,Docker","bash","ecs-cli,hub"
+クーポン管理システム ECS/Fargate化,個人,FinTech,"",2019/9/1,,"SE,コンサルタント","IT,実装/UT,内部設計,外部設計,要件定義",,"Ubuntu","AWS,ECS,Fargate,Docker","ruby,bash","",
+社員証管理システム ECS/Fargate化,個人,FinTech,"",2019/10/1,,"SE,コンサルタント","IT,実装/UT,内部設計,外部設計,要件定義",,"Ubuntu","AWS,ECS,Fargate,Docker","ruby,bash","",
