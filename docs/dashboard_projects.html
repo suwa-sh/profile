@@ -3,6 +3,13 @@
 <head>
   <meta http-equiv="Content-Security-Policy" content="script-src: 'unsafe-eval' https://lookerstudio.google.com">
 
+  <script>
+  if (navigator.userAgent.match(/iPhone|iPad|Android.+Mobile/)) {
+    window.alert("申し訳ありませんが。PCで表示をお願いします。現在対応方法を調査中です。")
+    history.back();
+  }
+  </script>
+
   <style>
     body {
       margin: 0;
