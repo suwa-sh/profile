@@ -22,27 +22,27 @@ export const footerLists = [
 		items: [
 			{
 				title: 'Domains',
-				slug: '/#Domains',
+				slug: '/profile/#Domains',
 			},
 			{
 				title: 'Roles',
-				slug: '/#Roles',
+				slug: '/profile/#Roles',
 			},
 			{
 				title: 'OSS',
-				slug: '/#OSS',
+				slug: '/profile/#OSS',
 			},
 			{
 				title: 'Slides',
-				slug: '/#Slides',
+				slug: '/profile/#Slides',
 			},
 			{
 				title: 'Blog',
-				slug: '/#Blog',
+				slug: '/profile/#Blog',
 			},
 			{
 				title: 'Contact',
-				slug: '/#Contact',
+				slug: '/profile/#Contact',
 			},
 		],
 	},
@@ -51,11 +51,11 @@ export const footerLists = [
 		items: [
 			{
 				title: 'Project Dashboard',
-				slug: '/works/dashboard',
+				slug: '/profile/works/dashboard',
 			},
 			{
 				title: 'Technologies',
-				slug: '/works/technologies',
+				slug: '/profile/works/technologies',
 			},
 			{
 				title: 'Spreadsheet',

@@ -1,30 +1,30 @@
 export const nav = [
 	{
 		title: 'Home',
-		slug: '/',
+		slug: '/profile/',
 	},
 	{
 		title: 'Domains',
-		slug: '/#Domains',
+		slug: '/profile/#Domains',
 	},
 	{
 		title: 'Roles',
-		slug: '/#Roles',
+		slug: '/profile/#Roles',
 	},
 	{
 		title: 'OSS',
-		slug: '/#OSS',
+		slug: '/profile/#OSS',
 	},
 	{
 		title: 'Slides',
-		slug: '/#Slides',
+		slug: '/profile/#Slides',
 	},
 	{
 		title: 'Blog',
-		slug: '/#Blog',
+		slug: '/profile/#Blog',
 	},
 	{
 		title: 'Works',
-		slug: '/works/dashboard',
+		slug: '/profile/works/dashboard',
 	},
 ];
