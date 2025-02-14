@@ -1,0 +1,56 @@
+---
+import { Icon } from 'astro-icon/components';
+import {
+  TextSection,
+  Button
+} from '@components/odyssey-theme';
+import Layout from '../../layouts/Page.astro';
+
+const seo = {
+  title: `suwa-sh profile | Works Dashboard`,
+  description: `あらゆる業務を社員の立場で支援するIT部門のジェネラリストです。`,
+};
+---
+
+<Layout seo={seo}>
+  <TextSection>
+    <h1>Project Dashbaord</h1>
+
+    <h2>サマリー</h2>
+    <iframe title="案件サマリー" class="visualization" style="width: 100%; aspect-ratio: 16 / 9; border: 0px;"
+      src="https://lookerstudio.google.com/embed/reporting/dadde153-a36d-4ba8-bd06-497b1e7dbd91/page/p_k4pnlluvod" 
+      allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+    </iframe>
+
+    <h2>推移</h2>
+    <iframe title="推移1" class="visualization" style="width: 100%; aspect-ratio: 16 / 9; border: 0px;"
+      src="https://lookerstudio.google.com/embed/reporting/dadde153-a36d-4ba8-bd06-497b1e7dbd91/page/p_ki7xeghnpd" 
+      allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+    </iframe>
+    <iframe title="推移2" class="visualization" style="width: 100%; aspect-ratio: 16 / 9; border: 0px;"
+      src="https://lookerstudio.google.com/embed/reporting/dadde153-a36d-4ba8-bd06-497b1e7dbd91/page/p_1ljkalinpd" 
+      allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+    </iframe>
+
+    <div class="button-container">
+      <Button href="/works/technologies" customIcon>
+        技術要素<Fragment slot="icon"><Icon name="ic:baseline-chevron-right" /></Fragment>
+      </Button>
+      <Button href="https://docs.google.com/spreadsheets/d/1TCUUjduPYQPXYOAyAwVqX9xT7JbJcU8JebFxEfas6Fo/edit?gid=530942456#gid=530942456" customIcon outlined newTab>
+        Spreadsheet<Fragment slot="icon"><Icon name="ic:baseline-chevron-right" /></Fragment>
+      </Button>
+    </div>
+
+  </TextSection>
+</Layout>
+
+<style>
+  .button-container {
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: space-around;
+    }
+  </style>
+  

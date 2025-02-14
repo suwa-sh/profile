@@ -1,0 +1,95 @@
+---
+import { Icon } from 'astro-icon/components';
+import { Container, Button } from '@components/odyssey-theme';
+import settings from '../../../config/settings.js';
+import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
+---
+
+<Container>
+	<section class="hero-section__section">
+		<div class="hero-section__image">
+			<picture>
+				<img
+					src="/assets/images/hero.jpg"
+					alt="suwa-sh"
+					id="home-hero-image"
+				/>
+			</picture>
+		</div>
+		<div class="hero-section__text">
+			<p class="hero-section__h3">文化・プロセス・テクノロジーを通して</p>
+			<p class="hero-section__h3">
+				より<span class="hero-section__h2">楽</span>で<span class="hero-section__h2">安全</span>に より<span class="hero-section__h2">早</span>く<span class="hero-section__h2">多</span>く
+			</p>
+			<p class="hero-section__h3">顧客に<span class="hero-section__h2">価値</span>を届ける</p>
+			<p style="margin: 1.8em auto;">そんなお手伝いができればと思っています。</p>
+			<div class="hero-btns__container">
+				<Button href="/#Contact" customIcon>
+					Contact Me<Fragment slot="icon"><Icon name="ic:baseline-chevron-right"/></Fragment>
+				</Button>
+			</div>
+			{settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
+		</div>
+	</section>
+</Container>
+
+<style>
+	.hero-section__section {
+		margin: var(--section-margin) auto;
+		min-height: clamp(90vh, 100vw, calc(100vh - var(--navbar-height)));
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		gap: 1rem;
+	}
+	.hero-section__text {
+		justify-self: center;
+		max-width: 40rem;
+	}
+	.hero-section__text p {
+		margin: 0.2em auto;
+	}
+	.hero-section__h2 {
+		font-size: var(--font-size-xl);
+	}
+	.hero-section__h3 {
+		font-size: var(--font-size-md);
+	}
+	.hero-section__sub {
+		font-size: var(--font-size-base);
+	}
+	.hero-btns__container {
+		margin-top: 1.8em;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+	.hero-btns__container {
+		margin-right: 1rem;
+	}
+	.hero-section__image {
+		display: flex;
+	}
+	.hero-section__image img {
+		width: 100%;
+		height: 100%;
+		max-height: 80vh;
+		object-fit: cover;
+		border-radius: var(--theme-shape-radius);
+	}
+	@media (max-width: 768px) {
+		.hero-section__section {
+			grid-template-columns: 1fr;
+		}
+
+		.hero-section__h2 {
+			font-size: var(--font-size-xl);
+		}
+		.hero-section__h3 {
+			font-size: var(--font-size-base);
+		}
+		.hero-section__sub {
+			font-size: var(--font-size-sm);
+		}
+	}
+</style>
