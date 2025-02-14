@@ -1,80 +1,83 @@
 export const footerSocials = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/jaydanurwin',
+    name: 'X',
+    url: 'https://x.com/suwa_sh',
     icon: "mdi:twitter",
   },
   {
-    name: 'Youtube',
-    url: 'https://youtube.com/@jaydanurwin',
-    icon: "mdi:youtube",
-  },
-  {
     name: 'Github',
-    url: 'https://github.com/jaydanurwin',
+    url: 'https://github.com/suwa-sh',
     icon: "mdi:github",
   },
   {
-    name: 'Discord',
-    url: 'https://astro.build/chat',
-    icon: "ic:baseline-discord",
+    name: 'Instagram',
+    url: 'https://www.instagram.com/suwa_sh',
+    icon: "mdi:instagram",
   },
 ]
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: 'Profile',
 		items: [
 			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
+				title: 'Domains',
+				slug: '/#Domains',
 			},
 			{
-				title: 'Landing Page 2',
-				slug: '/landing-pages/landing-2',
+				title: 'Roles',
+				slug: '/#Roles',
 			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
-		],
-	},
-	{
-		title: 'Company',
-		items: [
 			{
-				title: 'About',
-				slug: '/company/about',
+				title: 'OSS',
+				slug: '/#OSS',
+			},
+			{
+				title: 'Slides',
+				slug: '/#Slides',
 			},
 			{
 				title: 'Blog',
-				slug: '/blog',
+				slug: '/#Blog',
 			},
 			{
 				title: 'Contact',
-				slug: '/company/contact',
+				slug: '/#Contact',
 			},
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Works',
 		items: [
 			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
+				title: 'Project Dashboard',
+				slug: '/works/dashboard',
 			},
 			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
+				title: 'Technologies',
+				slug: '/works/technologies',
 			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+			{
+				title: 'Spreadsheet',
+				slug: 'https://docs.google.com/spreadsheets/d/1TCUUjduPYQPXYOAyAwVqX9xT7JbJcU8JebFxEfas6Fo/edit?gid=530942456#gid=530942456',
+			},
+		],
+	},
+	{
+		title: 'Outputs',
+		items: [
+			{
+				title: 'Github',
+				slug: 'https://github.com/suwa-sh',
+			},
+			{
+				title: 'Speaker Deck',
+				slug: 'https://speakerdeck.com/suwash',
+			},
+			{
+				title: 'note',
+				slug: 'https://note.com/suwash',
+			},
 		],
 	},
 ];

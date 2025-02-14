@@ -2,8 +2,6 @@
 
 - profile site
   - <https://suwa-sh.github.io/profile>
-- works dashboard
-  - <https://suwa-sh.github.io/profile/dashboard_projects.html>
 
 ## source
 

@@ -7,35 +7,28 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 
 <Container>
 	<section class="hero-section__section">
-		<div class="hero-section__text">
-				<h1>Welcome to Odyssey</h1>
-				<p>
-					A marketing website theme built with <a
-						href="https://astro.build"
-						target="_blank"
-						rel="noreferrer">Astro</a
-					> and carefully crafted for startups and businesses.
-				</p>
-				<div class="hero-btns__container">
-					<Button href="/theme/get-started" customIcon
-						>Get Started
-            <Fragment slot="icon">
-              <Icon name="ic:baseline-chevron-right"/>
-            </Fragment>
-            </Button
-					>
-					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
-				</div>
-        {settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
-		</div>
 		<div class="hero-section__image">
-				<picture>
-					<img
-						src="/assets/images/home/classic-hero.jpg"
-						alt="Astro Odyssey"
-						id="home-hero-image"
-					/>
-				</picture>
+			<picture>
+				<img
+					src="/assets/images/hero.jpg"
+					alt="suwa-sh"
+					id="home-hero-image"
+				/>
+			</picture>
+		</div>
+		<div class="hero-section__text">
+			<p class="hero-section__h3">文化・プロセス・テクノロジーを通して</p>
+			<p class="hero-section__h3">
+				より<span class="hero-section__h2">楽</span>で<span class="hero-section__h2">安全</span>に より<span class="hero-section__h2">早</span>く<span class="hero-section__h2">多</span>く
+			</p>
+			<p class="hero-section__h3">顧客に<span class="hero-section__h2">価値</span>を届ける</p>
+			<p style="margin: 1.8em auto;">そんなお手伝いができればと思っています。</p>
+			<div class="hero-btns__container">
+				<Button href="/#Contact" customIcon>
+					Contact Me<Fragment slot="icon"><Icon name="ic:baseline-chevron-right"/></Fragment>
+				</Button>
+			</div>
+			{settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
 		</div>
 	</section>
 </Container>
@@ -51,9 +44,22 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 	}
 	.hero-section__text {
 		justify-self: center;
-		max-width: 25rem;
+		max-width: 40rem;
+	}
+	.hero-section__text p {
+		margin: 0.2em auto;
+	}
+	.hero-section__h2 {
+		font-size: var(--font-size-xl);
+	}
+	.hero-section__h3 {
+		font-size: var(--font-size-md);
+	}
+	.hero-section__sub {
+		font-size: var(--font-size-base);
 	}
 	.hero-btns__container {
+		margin-top: 1.8em;
 		display: flex;
 		align-items: center;
 		gap: 1rem;
@@ -74,6 +80,16 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 	@media (max-width: 768px) {
 		.hero-section__section {
 			grid-template-columns: 1fr;
+		}
+
+		.hero-section__h2 {
+			font-size: var(--font-size-xl);
+		}
+		.hero-section__h3 {
+			font-size: var(--font-size-base);
+		}
+		.hero-section__sub {
+			font-size: var(--font-size-sm);
 		}
 	}
 </style>
