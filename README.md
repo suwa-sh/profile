@@ -14,15 +14,3 @@
 npm install
 npm run start
 ```
-
-## deploy
-
-```sh
-npm run build
-rm -fr ./docs/
-mv ./dist/ ./docs/
-
-git add .
-git commit -m "chore: publish"
-git push origin
-```
