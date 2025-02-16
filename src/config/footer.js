@@ -54,11 +54,11 @@ export const footerLists = [
 				slug: '/profile/works/dashboard',
 			},
 			{
-				title: 'Technologies',
+				title: '技術要素',
 				slug: '/profile/works/technologies',
 			},
 			{
-				title: 'Spreadsheet',
+				title: '職務経歴',
 				slug: 'https://docs.google.com/spreadsheets/d/1TCUUjduPYQPXYOAyAwVqX9xT7JbJcU8JebFxEfas6Fo/edit?gid=530942456#gid=530942456',
 			},
 		],
