@@ -31,4 +31,5 @@ export { default as FormTextarea } from './form-fields/FormTextarea.astro';
 export { default as FormSelect } from './form-fields/FormSelect.astro';
 
 // custom Sections
+export { default as TextImageSection } from './sections/TextImageSection.astro';
 export { default as Experience } from './sections/Experience.astro';

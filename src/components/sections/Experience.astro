@@ -23,8 +23,7 @@ const image_url = `/profile/assets/images/career/${logo}`;
     margin-top: 1rem;
   }
   .image-container {
-    width: 100%;
-    height: 100%;
+    width: clamp(5rem, 10%, 5rem);
     max-height: 5rem;
     max-width: 5rem;
     border-radius: 50%;
@@ -32,12 +31,12 @@ const image_url = `/profile/assets/images/career/${logo}`;
   }
   .image-container img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
   }
   .text-container {
     display: flex;
     flex-direction: column;
+    margin-left: 1.6rem;
   }
   .date {
     font-size: 0.8rem;
@@ -49,5 +48,14 @@ const image_url = `/profile/assets/images/career/${logo}`;
   }
   .description {
     font-size: 0.8rem;
+  }
+  @media (max-width: 768px) {
+    .text-image__section {
+      grid-template-columns: 1fr;
+    }
+    .text-image__image :global(:first-child) {
+      float: none;
+      width: 60%;
+    }
   }
 </style>

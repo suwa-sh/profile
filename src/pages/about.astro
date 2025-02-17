@@ -2,7 +2,7 @@
 import { Icon } from 'astro-icon/components';
 import {
 	Container, 
-	StickyTextImageSection,
+	TextImageSection,
 	Experience,
 	Button
 } from '@components/odyssey-theme';
@@ -63,14 +63,35 @@ let experiences = [
 
 <Layout>
 
+	<TextImageSection reversed>
+		<picture slot="image-container">
+			<img
+				src="/profile/favicon.png"
+				alt="suwa-sh"
+				loading="lazy"
+			/>
+		</picture>
+		<div slot="text-container">
+			<h2>About</h2>
+			<h4>名称　 : <span>諏訪 真一 (屋号なし) / Shinichi Suwa</span></h4>
+			<h4>所在地 : <span>神奈川県 川崎市</span></h4>
+			<h4>連絡先 : <span>suwash01 at gmail.com</span></h4>
+			<div class="button-container">
+				<Button href="/profile/#Contact" customIcon>
+					Contact Me<Fragment slot="icon"><Icon name="ic:baseline-chevron-right"/></Fragment>
+				</Button>
+			</div>
+		</div>
+	</TextImageSection>
+
 	<Container narrow>
 		<section class="career__section">
 			<h2>Career</h2>
-			<div slot="text-container">
+			<div>
 				{
 					experiences.map((experience) => {
 						return (
-							<div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+							<div>
 								<Experience
 									dates={experience.dates}
 									company={experience.company}
@@ -84,28 +105,6 @@ let experiences = [
 			</div>
 			</section>
 	</Container>
-
-	<StickyTextImageSection reversed>
-		<div slot="text-container">
-			<h2>About</h2>
-			<h4>名称　 : <span>諏訪 真一 / Shinichi Suwa (屋号なし)</span></h4>
-			<h4>所在地 : <span>神奈川県 川崎市</span></h4>
-			<h4>連絡先 : <span>suwash01 at gmail.com</span></h4>
-			<div class="button-container">
-				<Button href="/profile/#Contact" customIcon>
-					Contact Me<Fragment slot="icon"><Icon name="ic:baseline-chevron-right"/></Fragment>
-				</Button>
-			</div>
-		</div>
-		<picture slot="image-container">
-			<img
-				src="/profile/favicon.png"
-				style="width: 60%; height: 60%; float: right;"
-				alt="suwa-sh"
-				loading="lazy"
-			/>
-		</picture>
-	</StickyTextImageSection>
 
 </Layout>
 

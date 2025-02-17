@@ -1,0 +1,49 @@
+---
+import Container from '../core/Container.astro';
+
+const {reversed} = Astro.props;
+---
+
+<Container narrow>
+  <section class={`text-image__section ${reversed && `text-image__section--reversed`}`}>
+    <div class="text-image__text">
+      <slot name="text-container"></slot>
+    </div>
+    <div class="text-image__image">
+      <slot name="image-container"></slot>
+    </div>
+  </section>
+</Container>
+
+
+  <style>
+  .text-image__section {
+    margin: calc(var(--section-margin) * 2) auto;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    position: relative;
+    gap: 2rem;
+  }
+  .text-image__section--reversed {
+    grid-template-columns: 4fr 6fr;
+  }
+  .text-image__section--reversed .text-image__text {
+    order: 2;
+  }
+  .text-image__image :global(:first-child) {
+    float: right;
+    width: clamp(300px, 40%, 400px);
+  }
+  .text-image__section :global(img) {
+    border-radius: var(--theme-shape-radius);
+  }
+  @media (max-width: 768px) {
+    .text-image__section {
+      grid-template-columns: 1fr;
+    }
+    .text-image__image :global(:first-child) {
+      float: none;
+      width: 60%;
+    }
+  }
+</style>
