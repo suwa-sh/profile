@@ -1,13 +1,13 @@
 export const footerSocials = [
   {
-    name: 'X',
-    url: 'https://x.com/suwa_sh',
-    icon: "mdi:twitter",
-  },
-  {
     name: 'Github',
     url: 'https://github.com/suwa-sh',
     icon: "mdi:github",
+  },
+  {
+    name: 'X',
+    url: 'https://x.com/suwa_sh',
+    icon: "mdi:twitter",
   },
   {
     name: 'Instagram',
@@ -21,24 +21,12 @@ export const footerLists = [
 		title: 'Profile',
 		items: [
 			{
-				title: 'Domains',
-				slug: '/profile/#Domains',
+				title: 'Home',
+				slug: '/profile',
 			},
 			{
-				title: 'Roles',
-				slug: '/profile/#Roles',
-			},
-			{
-				title: 'OSS',
-				slug: '/profile/#OSS',
-			},
-			{
-				title: 'Slides',
-				slug: '/profile/#Slides',
-			},
-			{
-				title: 'Blog',
-				slug: '/profile/#Blog',
+				title: 'About',
+				slug: '/profile/about',
 			},
 			{
 				title: 'Contact',

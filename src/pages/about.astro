@@ -1,0 +1,134 @@
+---
+import { Icon } from 'astro-icon/components';
+import {
+	Container, 
+	StickyTextImageSection,
+	Experience,
+	Button
+} from '@components/odyssey-theme';
+
+import Layout from '../layouts/Page.astro';
+
+let experiences = [
+	{
+		dates: "2002 - 2004",
+		company: "エノテカ株式会社",
+		description: "イタリアンレストランの副店長として従事。接客、顧客管理、店舗運営サポート、飲料管理、卸業者との折衝などを担当。",
+		logo: "logo_enoteca.png"
+	},
+	{
+		dates: "2004 - 2010",
+		company: "株式会社アンサー",
+		description: "ソフトハウスのエンジニアとして従事。エンジニアとしてSI案件のすべてのフェーズを担当。新規事業推進室では、研修事業刷新の立ち上げ、構築、運営、サポートまで担当。",
+		logo: "logo_answer.png"
+	},
+	{
+		dates: "2010 - 現在",
+		company: "株式会社プレーサ",
+		description: "発起人として、小規模なソフトウェアベンダーの立ち上げから、運営の全般を経験。大企業のSI案件を発注者側の立場から支援しています。",
+		logo: "logo_presa.png"
+	},
+	{
+		dates: "2017 - 現在",
+		company: "個人",
+		description: "個人事業では、法人ではビジネスの継続がむずかしい中小企業のIT部門、スタートアップへの支援をしています。",
+		logo: "logo_personal.png"
+	},
+	{
+		dates: "2018 - 2020",
+		company: "DevLOVE",
+		description: "越境者の集い にJoin。DevLOVEコミュニティの運営に参加して、越境する人をサポートしています。",
+		logo: "logo_devlove.png"
+	},
+	{
+		dates: "2018 - 2020",
+		company: "The Agile Guild",
+		description: "任意団体 The Agile Guild にJoin。行き届いていない所へテクノロジーを届けるために、何ができるか日々模索しています。",
+		logo: "logo_tag.png"
+	},
+	{
+		dates: "2019 - 2020",
+		company: "NoOps Japan",
+		description: "NoOps Japan にJoin。システム運用の嬉しくないことをなくすために、何ができるか日々模索しています。",
+		logo: "logo_noopsjp.png"
+	},
+	{
+		dates: "2020 - 現在",
+		company: "Red Alliance",
+		description: "Red JourneyのRedアライアンスにJoin。伝統的な企業内でDXに挑戦する人を支援しています。",
+		logo: "logo_redj.png"
+	}
+]
+---
+
+<Layout>
+
+	<Container narrow>
+		<section class="career__section">
+			<h2>Career</h2>
+			<div slot="text-container">
+				{
+					experiences.map((experience) => {
+						return (
+							<div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+								<Experience
+									dates={experience.dates}
+									company={experience.company}
+									description={experience.description}
+									logo={experience.logo}
+								/>
+							</div>
+						)
+					})
+				}
+			</div>
+			</section>
+	</Container>
+
+	<StickyTextImageSection reversed>
+		<div slot="text-container">
+			<h2>About</h2>
+			<h4>名称　 : <span>諏訪 真一 / Shinichi Suwa (屋号なし)</span></h4>
+			<h4>所在地 : <span>神奈川県 川崎市</span></h4>
+			<h4>連絡先 : <span>suwash01 at gmail.com</span></h4>
+			<div class="button-container">
+				<Button href="/profile/#Contact" customIcon>
+					Contact Me<Fragment slot="icon"><Icon name="ic:baseline-chevron-right"/></Fragment>
+				</Button>
+			</div>
+		</div>
+		<picture slot="image-container">
+			<img
+				src="/profile/favicon.png"
+				style="width: 60%; height: 60%; float: right;"
+				alt="suwa-sh"
+				loading="lazy"
+			/>
+		</picture>
+	</StickyTextImageSection>
+
+</Layout>
+
+<style>
+	h4{
+		font-size: 1.0rem;
+	}
+	h4 span{
+		color: gray;
+	}
+
+	.button-container {
+		margin-top: 1.8rem;
+	}
+
+	.career__section {
+		margin: var(--section-margin) auto;
+	}
+
+
+	@media (max-width: 768px) {
+		.feature-card__grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

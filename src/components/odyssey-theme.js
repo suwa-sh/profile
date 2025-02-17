@@ -29,3 +29,6 @@ export { default as BlogPostPreview } from './blog/BlogPostPreview.astro';
 export { default as FormInput } from './form-fields/FormInput.astro';
 export { default as FormTextarea } from './form-fields/FormTextarea.astro';
 export { default as FormSelect } from './form-fields/FormSelect.astro';
+
+// custom Sections
+export { default as Experience } from './sections/Experience.astro';
