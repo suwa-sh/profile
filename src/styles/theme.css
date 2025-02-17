@@ -15,7 +15,7 @@
 
 	/* Theme Shapes */
 	/* Set this to 0 if you want all of the rounded cards, images, etc to be straight edges */
-	--theme-shape-radius: clamp(1rem, 2rem, 3rem);
+	--theme-shape-radius: clamp(0.4rem, 0.6rem, 1.2rem);
 	--theme-button-border-radius: 3rem;
 
 	/* Theme Transition */
