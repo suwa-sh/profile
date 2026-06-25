@@ -14,11 +14,11 @@
 		"format": "npx prettier -w ."
 	},
 	"devDependencies": {
-		"@astrojs/mdx": "^5.0.3",
+		"@astrojs/mdx": "^7.0.0",
 		"@astrojs/sitemap": "^3.7.2",
 		"@iconify-json/ic": "^1.1.17",
 		"@iconify-json/mdi": "^1.1.64",
-		"astro": "^6.1.8",
+		"astro": "^7.0.2",
 		"astro-icon": "^1.1.5",
 		"date-fns": "^2.28.0",
 		"prettier-plugin-astro": "^0.0.12"
