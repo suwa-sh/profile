@@ -38,6 +38,10 @@
   - deploy
     - main pushed -> GitHub Actions -> GitHub Pages
 
+  - 依存の固定 (`package.json` の `overrides`)
+    - `js-yaml`: 脆弱性修正版は 4.3.1 だが、astro / @astrojs/internal-helpers が `^4.1.1` を要求する transitive 依存のため Dependabot が更新経路を作れない (`security_update_not_possible`)。`overrides` で `^4.3.1` を強制し、`package-lock.json` を 4.3.1 に固定している。
+    - 変更後は `npm ci && npm run build` と `npm ls js-yaml` で解決バージョンを確認する。
+
 - 職務経歴 Spreadsheet
   - 集計
     - `【職務経歴】メニュー > rebuild marts`
