@@ -1,0 +1,21 @@
+version: 2
+
+updates:
+  # npm の依存を定期的に更新し、脆弱性アラートが出る前に transitive 依存を追従させる。
+  # 追従が遅れると overrides で固定した版が古くなり security_update_not_possible の原因になる。
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 10
+    groups:
+      npm-minor-patch:
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
