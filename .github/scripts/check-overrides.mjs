@@ -10,7 +10,9 @@ import path from 'node:path';
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const packageJsonPath = path.join(repoRoot, 'package.json');
 
-const RANGE_PREFIX = /^(\^|~|>|<|\*$)/;
+// 完全固定 (例: "4.3.0" / "=4.3.0") のみを検出する。
+// "^4.3.1" / "~4.3.1" / ">=4.3.1" / "4.x" / "*" などの範囲指定は許可する。
+const EXACT_VERSION = /^=?\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$/;
 
 function collectPinnedOverrides(overrides, trail = []) {
 	const pinned = [];
@@ -32,7 +34,7 @@ function collectPinnedOverrides(overrides, trail = []) {
 			continue;
 		}
 
-		if (!RANGE_PREFIX.test(value.trim())) {
+		if (EXACT_VERSION.test(value.trim())) {
 			pinned.push({ name: currentTrail.join(' > '), version: value });
 		}
 	}
