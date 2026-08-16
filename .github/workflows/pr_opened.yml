@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Check package.json overrides are not pinned
+        run: npm run check:overrides
       - name: Install dependencies
         run: npm ci
       - name: Build

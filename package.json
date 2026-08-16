@@ -11,7 +11,8 @@
 		"start": "astro dev --host",
 		"build": "astro build",
 		"preview": "astro preview",
-		"format": "npx prettier -w ."
+		"format": "npx prettier -w .",
+		"check:overrides": "node .github/scripts/check-overrides.mjs"
 	},
 	"devDependencies": {
 		"@astrojs/mdx": "^7.0.0",
