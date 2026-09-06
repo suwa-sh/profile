@@ -15,7 +15,7 @@
 		"check:overrides": "node .github/scripts/check-overrides.mjs"
 	},
 	"devDependencies": {
-		"@astrojs/mdx": "^7.0.8",
+		"@astrojs/mdx": "^8.0.0",
 		"@astrojs/sitemap": "^3.7.3",
 		"@iconify-json/ic": "^1.1.17",
 		"@iconify-json/mdi": "^1.1.64",
