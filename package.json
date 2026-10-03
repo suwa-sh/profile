@@ -19,10 +19,10 @@
 		"@astrojs/sitemap": "^3.7.4",
 		"@iconify-json/ic": "^1.1.17",
 		"@iconify-json/mdi": "^1.1.64",
-		"astro": "^7.3.4",
+		"astro": "^7.3.5",
 		"astro-icon": "^1.2.0",
 		"date-fns": "^4.4.0",
-		"prettier-plugin-astro": "^1.0.1"
+		"prettier-plugin-astro": "^1.1.0"
 	},
 	"engines": {
 		"node": ">=22.12.0"
