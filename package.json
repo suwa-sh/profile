@@ -19,7 +19,7 @@
 		"@astrojs/sitemap": "^3.7.4",
 		"@iconify-json/ic": "^1.1.17",
 		"@iconify-json/mdi": "^1.1.64",
-		"astro": "^7.4.5",
+		"astro": "^7.4.12",
 		"astro-icon": "^1.2.0",
 		"date-fns": "^4.4.0",
 		"prettier-plugin-astro": "^1.1.2"
